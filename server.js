@@ -28,4 +28,6 @@ app.engine("handlebars", exphbs({
 
 app.set("view engine", "handlebars");
 
-app.listen(port);
+app.listen(PORT, function (req, res) {
+    console.log('App listening on PORT: ' + PORT);
+});
