@@ -1,0 +1,13 @@
+img {
+	width: 10%;
+}
+body {
+  background-image: url("../img/table.png");
+  background-size: cover;
+ }
+ .header {
+ 	color: white;
+ }
+ .well {
+ 	color: black;
+ }
