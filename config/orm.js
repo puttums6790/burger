@@ -1,17 +1,13 @@
 // Import MySQL connection.
 var connection = require("../config/connection.js");
-
 // Helper function for SQL syntax, prints question marks
 function printQuestionMarks(num) {
     var arr = [];
-
     for (var i = 0; i < num; i++) {
         arr.push("?");
     }
-
     return arr.toString();
 }
-
 // Helper function for SQL syntax, converts object to string
 function objToSql(ob) {
     var arr = [];
